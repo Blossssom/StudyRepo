@@ -1,0 +1,34 @@
+li {
+  font-size: 1.2em;
+  list-style: none;
+}
+
+.list_day > li {
+  display: flex;
+  justify-content: space-around;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 50px;
+}
+table td {
+  width: 25%;
+  height: 70px;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+table td:first-child {
+  width: 10%;
+}
+
+ul a {
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 5px;
+  background-color: dodgerblue;
+}
