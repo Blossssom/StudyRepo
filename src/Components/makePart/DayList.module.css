@@ -32,3 +32,22 @@ ul a {
   border-radius: 5px;
   background-color: dodgerblue;
 }
+
+button {
+  border: none;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  margin-left: 10px;
+  line-height: 50px;
+  background-color: darkcyan;
+  border-radius: 7px;
+}
+
+.btn_del {
+  background-color: firebrick;
+}
+
+.off {
+  background-color: #ebebeb;
+}
