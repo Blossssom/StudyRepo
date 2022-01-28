@@ -1,4 +1,4 @@
- {
+{
   "days": [
     {
       "id": 1,
@@ -18,20 +18,6 @@
     }
   ],
   "words": [
-    {
-      "id": 1,
-      "day": 1,
-      "eng": "book",
-      "kor": "책",
-      "isDone": false
-    },
-    {
-      "id": 3,
-      "day": 2,
-      "eng": "car",
-      "kor": "자동차",
-      "isDone": false
-    },
     {
       "id": 5,
       "day": 3,
@@ -61,32 +47,46 @@
       "id": 8
     },
     {
-      "day": "2",
-      "eng": "mouse",
-      "kor": "쥐",
-      "isDone": false,
-      "id": 9
-    },
-    {
-      "day": "4",
-      "eng": "monkey",
-      "kor": "원숭이",
-      "isDone": false,
-      "id": 10
-    },
-    {
-      "day": "4",
-      "eng": "apple",
-      "kor": "사과",
-      "isDone": false,
-      "id": 11
-    },
-    {
       "day": "3",
       "eng": "apple",
       "kor": "사과",
       "isDone": false,
       "id": 12
+    },
+    {
+      "day": "1",
+      "eng": "blossom",
+      "kor": "꽃, 개화",
+      "isDone": false,
+      "id": 13
+    },
+    {
+      "day": "1",
+      "eng": "peach",
+      "kor": "복숭아",
+      "isDone": false,
+      "id": 14
+    },
+    {
+      "day": "1",
+      "eng": "perfume",
+      "kor": "향수",
+      "isDone": false,
+      "id": 15
+    },
+    {
+      "day": "2",
+      "eng": "photo",
+      "kor": "사진",
+      "isDone": false,
+      "id": 16
+    },
+    {
+      "day": "1",
+      "eng": "tree",
+      "kor": "나무",
+      "isDone": false,
+      "id": 17
     }
   ]
 }

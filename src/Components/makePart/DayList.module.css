@@ -42,6 +42,7 @@ button {
   line-height: 50px;
   background-color: darkcyan;
   border-radius: 7px;
+  cursor: pointer;
 }
 
 .btn_del {
@@ -50,4 +51,25 @@ button {
 
 .off {
   background-color: #ebebeb;
+}
+
+form {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.input_area {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 20px 0;
+}
+
+.input_area > label {
+  text-align: left;
+}
+
+.input_area > input,
+.input_area > select {
+  padding: 0;
+  height: 40px;
 }

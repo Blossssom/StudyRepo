@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 
 function useFetch(url) {
-    console.log('call custom HookS!!!');
     const [data, setData] = useState([]);
 
     useEffect(() => {

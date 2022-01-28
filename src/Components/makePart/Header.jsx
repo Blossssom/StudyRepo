@@ -8,12 +8,12 @@ function Header() {
                 <Link to="/">토익 영단어(고급)</Link>
             </h1>
             <div className={styles.menu}>
-                <a href="#x" className={styles.link}>
+                <Link to={'/create_word'} className={styles.link}>
                     단어추가
-                </a>
-                <a href="#" className={styles.link}>
+                </Link>
+                <Link to={'/create_day'} className={styles.link}>
                     Day 추가
-                </a>
+                </Link>
             </div>
         </div>
     );
