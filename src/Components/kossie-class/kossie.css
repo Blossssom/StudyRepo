@@ -1,0 +1,38 @@
+.wrap-kossie-in {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.link-in {
+  width: 500px;
+  background-color: #3b5cff;
+  height: 50px;
+  border-radius: 10px;
+  line-height: 50px;
+  margin: 10px 0 10px 0;
+}
+
+.link-in > a {
+  color: white;
+  font-weight: 600;
+}
+
+input {
+  width: 300px;
+  margin: 20px 0 20px 0;
+  height: 40px;
+  font-size: 1.2rem;
+}
+
+button {
+  width: 300px;
+  background-color: #3b5cff;
+  height: 50px;
+  border-radius: 10px;
+  line-height: 50px;
+  margin: 10px 0 10px 0;
+  color: white;
+}

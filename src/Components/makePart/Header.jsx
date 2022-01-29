@@ -14,6 +14,9 @@ function Header() {
                 <Link to={'/create_day'} className={styles.link}>
                     Day 추가
                 </Link>
+                <Link to={'/kossie_class'} className={styles.link}>
+                    Kossie Class
+                </Link>
             </div>
         </div>
     );
