@@ -4,7 +4,7 @@ import Word from './Word';
 import useFetch from './hooks/useFetch';
 
 function Day() {
-    console.log('reRender!!!')
+    // console.log('reRender!!!')
 
     const {day} = useParams();
     const wordList = useFetch(`http://localhost:3001/words?day=${day}`)
@@ -12,6 +12,7 @@ function Day() {
     return(
         <>
             <h2>Day {day}</h2>
+            {wordList.length === 0 && <span>Loading ...</span>}
             <table>
                 <tbody>
                     {wordList.map(word => (

@@ -15,6 +15,18 @@
     {
       "day": 4,
       "id": 4
+    },
+    {
+      "day": 5,
+      "id": 5
+    },
+    {
+      "day": 6,
+      "id": 6
+    },
+    {
+      "day": 7,
+      "id": 7
     }
   ],
   "words": [
@@ -57,7 +69,7 @@
       "day": "1",
       "eng": "blossom",
       "kor": "꽃, 개화",
-      "isDone": false,
+      "isDone": true,
       "id": 13
     },
     {
@@ -87,6 +99,20 @@
       "kor": "나무",
       "isDone": false,
       "id": 17
+    },
+    {
+      "day": "1",
+      "eng": "water",
+      "kor": "물",
+      "isDone": false,
+      "id": 18
+    },
+    {
+      "day": "5",
+      "eng": "bean",
+      "kor": "콩",
+      "isDone": false,
+      "id": 19
     }
   ]
 }

@@ -45,6 +45,11 @@ button {
   cursor: pointer;
 }
 
+button:disabled
+{
+  background-color: #999999;
+}
+
 .btn_del {
   background-color: firebrick;
 }
