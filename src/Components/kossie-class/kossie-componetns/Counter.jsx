@@ -1,15 +1,17 @@
-function Counter() {
+import { useState } from "react";
 
-    const [cnt0, setCnt0] = useState(0);
-    const [cnt1, setCnt1] = useState(0);
-    const [cnt2, setCnt2] = useState(0);
+function Counter(props) {
 
-    const addCnt0 = () => {
-        setCnt0(cnt0 + 1);
+    const defaultCount = props.count || 1;
+
+    const [cnt, setCnt] = useState(0);
+
+    const addCnt = () => {
+        setCnt(cnt + defaultCount);
     };
 
     return(
-        <button onClick={addCnt0}>add Count0!  count : {cnt0}</button>
+        <button onClick={addCnt}>add {defaultCount}!  count : {cnt}</button>
     );
 }
 
