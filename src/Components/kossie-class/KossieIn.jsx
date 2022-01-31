@@ -10,6 +10,15 @@ function KossieIn() {
             <div className="link-in">
                 <Link to={'/kossie_class/hook_useState01'}>useState01</Link>
             </div>
+            <div className="link-in">
+                <Link to={'/kossie_class/hook_useStateForm'}>useStateForm</Link>
+            </div>
+            <div className="link-in">
+                <Link to={"/kossie_class/hook_useEffect01"}>useEffect01</Link>
+            </div>
+            <div className="link-in">
+                <Link to={"/kossie_class/component01"}>Component01</Link>
+            </div>
         </div>
     );
 }
