@@ -13,6 +13,8 @@ import UseStateForm from './Components/kossie-class/UseStateForm';
 import UseEffect01 from './Components/kossie-class/UseEffect01';
 import Component01 from './Components/kossie-class/Component01';
 import ConditionalRender from './Components/kossie-class/ConditionalRender';
+import ReactLoop from './Components/kossie-class/ReactLoop';
+import MovieList from './Components/kossie-class/MovieList';
 
 
 // 기본적으로 제공되는 App.css는 이곳에만 적용되는 것이 아님
@@ -34,7 +36,9 @@ function App() {
           <Route path="kossie_class/hook_useStateForm" element={<UseStateForm />} />
           <Route path="kossie_class/hook_useEffect01" element={<UseEffect01 />} />
           <Route path="kossie_class/component01" element={<Component01 />} />
-          <Route path="kossie_class/conditionalRender" element={<ConditionalRender />} /> 
+          <Route path="kossie_class/conditionalRender" element={<ConditionalRender />} />
+          <Route path="kossie_class/react_loop" element={<ReactLoop />} /> 
+          <Route path="kossie_class/movie_list" element={<MovieList />} />
           <Route path="*" element={<EmptyPage />} />
         </Routes>
       </div>
