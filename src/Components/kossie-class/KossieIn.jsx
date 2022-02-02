@@ -19,6 +19,9 @@ function KossieIn() {
             <div className="link-in">
                 <Link to={"/kossie_class/component01"}>Component01</Link>
             </div>
+            <div className="link-in">
+                <Link to={"/kossie_class/conditionalRender"}>ConditionalRender</Link>
+            </div>
         </div>
     );
 }
