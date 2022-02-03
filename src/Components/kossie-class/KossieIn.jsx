@@ -26,7 +26,7 @@ function KossieIn() {
                 <Link to={"/kossie_class/react_loop"}>ReactLoop</Link>
             </div>
             <div className="link-in">
-                <Link to={"/kossie_class/movie_list"}>ReactLoop</Link>
+                <Link to={"/kossie_class/movie_list"}>MovieList</Link>
             </div>
         </div>
     );

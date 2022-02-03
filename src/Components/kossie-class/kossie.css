@@ -48,7 +48,23 @@ button {
   padding: 10px;
 }
 
+.movie-list .movie-title {
+  width: 100px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
 .movie-list .movie-years {
   font-size: 0.8rem;
   color: cadetblue;
+}
+
+.movie-list-delete button {
+  background-color: unset;
+  color: red;
+  width: fit-content;
+  height: fit-content;
+  line-height: 20px;
+  margin: 0;
 }
