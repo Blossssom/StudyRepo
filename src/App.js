@@ -15,6 +15,7 @@ import Component01 from './Components/kossie-class/Component01';
 import ConditionalRender from './Components/kossie-class/ConditionalRender';
 import ReactLoop from './Components/kossie-class/ReactLoop';
 import MovieList from './Components/kossie-class/MovieList';
+import GetUserData from './Components/kossie-class/GetUserData';
 
 
 // 기본적으로 제공되는 App.css는 이곳에만 적용되는 것이 아님
@@ -39,6 +40,7 @@ function App() {
           <Route path="kossie_class/conditionalRender" element={<ConditionalRender />} />
           <Route path="kossie_class/react_loop" element={<ReactLoop />} /> 
           <Route path="kossie_class/movie_list" element={<MovieList />} />
+          <Route path="kossie_class/get_userData" element={<GetUserData />} />
           <Route path="*" element={<EmptyPage />} />
         </Routes>
       </div>

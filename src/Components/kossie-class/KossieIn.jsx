@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import './kossie.css';
 
 function KossieIn() {
     return(
@@ -27,6 +26,9 @@ function KossieIn() {
             </div>
             <div className="link-in">
                 <Link to={"/kossie_class/movie_list"}>MovieList</Link>
+            </div>
+            <div className="link-in">
+                <Link to={"/kossie_class/get_userData"}>Get userData</Link>
             </div>
         </div>
     );
