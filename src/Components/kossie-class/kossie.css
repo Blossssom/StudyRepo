@@ -22,7 +22,7 @@ a {
 
 a:hover {
   color: black;
-  background-color:  #3b5cff;
+  background-color: #3b5cff;
 }
 
 .link-in > a {
@@ -79,18 +79,29 @@ button {
   margin: 0;
 }
 
-.wrap-userlist
-{
+.wrap-userlist {
   width: 600px;
   margin: 0 auto;
 }
 
-.card
-{
+.card {
   border: 1px solid #999999;
   font-size: 1rem;
   line-height: 40px;
   margin: 10px 0;
   text-align: left;
   padding: 10px 20px;
+}
+
+.detail-info-card {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.detail-card-body {
+  text-align: left;
+  margin: 30px 0;
 }

@@ -2,7 +2,6 @@ import { Link} from "react-router-dom";
 import "../kossie.css";
 
 function UserList(props) {
-    console.log(props);
     return(
         <div>
             {props.users.map((user) => {
@@ -14,7 +13,8 @@ function UserList(props) {
                                 name: user.name,
                                 username: user.username,
                                 email: user.email,
-                                phone: user.phone
+                                phone: user.phone,
+                                website: user.website
                             }
                         } 
                         key={user.id} 
