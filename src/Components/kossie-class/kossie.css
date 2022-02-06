@@ -15,6 +15,16 @@
   margin: 10px 0 10px 0;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: black;
+  background-color:  #3b5cff;
+}
+
 .link-in > a {
   color: white;
   font-weight: 600;
@@ -67,4 +77,20 @@ button {
   height: fit-content;
   line-height: 20px;
   margin: 0;
+}
+
+.wrap-userlist
+{
+  width: 600px;
+  margin: 0 auto;
+}
+
+.card
+{
+  border: 1px solid #999999;
+  font-size: 1rem;
+  line-height: 40px;
+  margin: 10px 0;
+  text-align: left;
+  padding: 10px 20px;
 }

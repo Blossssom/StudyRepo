@@ -5,7 +5,7 @@ function Header() {
     return(
         <div className={styles.header}>
             <h1>
-                <Link to="/">토익 영단어(고급)</Link>
+                <Link to="/">React Study</Link>
             </h1>
             <div className={styles.menu}>
                 <Link to={'/create_word'} className={styles.link}>
